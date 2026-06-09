@@ -11,3 +11,11 @@ python app.py
 ```
 
 Åpne deretter `http://127.0.0.1:5000` i nettleseren.
+
+## Kjør med Docker
+
+```bash
+docker compose -f compose.yml up --build
+```
+
+Åpne deretter `http://127.0.0.1:5000` i nettleseren.
